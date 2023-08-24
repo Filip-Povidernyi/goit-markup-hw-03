@@ -1,0 +1,178 @@
+body {
+    color: var(--slate);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--cornflower);
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --navyblue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+    --white: #FFF;
+    --ocean: #404BBF;
+    --cornflower: #E7E9FC;
+}
+.list {
+    list-style-type: none;
+}
+.heading-tw {
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.heading-th {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.hero {
+    background-color: var(--navyblue);
+}
+.h-hero {
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero .button-hero {
+    background-color: var(--iris);
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: var(--ocean);
+}
+.link-logo {
+    color: var(--iris);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.034em;
+    text-transform: uppercase;
+}
+.link {
+    text-decoration: none;
+}
+.logo-web {
+    color: var(--navyblue);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.034em;
+    text-transform: uppercase;
+}
+.link-top {
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+.link-top:hover,
+.link-top:focus {
+    color: var(--ocean);
+}
+.link-contact {
+    font-style: normal
+}
+.contact {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.contact:hover,
+.contact:focus {
+    color: var(--ocean);
+}
+.basement {
+    background-color: var(--navyblue)
+}
+.basement-text {
+    color: var(--cloud);
+}
+.basement .logo-web {
+    color: var(--cloud)
+}
+.filter {
+    font-family: "Roboto", sans-serif;
+    color: var(--iris);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+}
+.team {
+    background-color: var(--cloud);
+}
+.worker {
+    background-color: var(--white);
+}
+.paragraph {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.cards-heading {
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+}
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-nav {
+    display: flex;
+    gap: 8px;
+}
+.page-nav .link-logo {
+    padding-top: 22.5px;
+    padding-right: 147px;
+    padding-bottom: 22.5px;
+    padding-left: 156px;
+}
